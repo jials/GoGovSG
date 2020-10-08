@@ -12,6 +12,9 @@ router.use('/sentry', require('./sentry'))
 router.use('/links', require('./links'))
 router.use('/search', require('./search'))
 
+// To be placed with userguard
+router.use('/directory', require('./directory'))
+
 /**
  * To protect private user routes.
  * */
